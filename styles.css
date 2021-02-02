@@ -20,10 +20,10 @@ h1 {
 header {
   border: 1.5px solid #004876;
   border-radius: 0.25em;
-  background-image: url(/images/backgroundheader\ copy.png);
+  background-image: url(images/backgroundh.png);
 }
 #myInput {
-  background-image: url('/images/loupe.png');
+  background-image: url(images/loupe.png);
   background-position: 10px 12px;
   background-repeat: no-repeat;
   width: 25%;
