@@ -10,20 +10,11 @@
 <body>
   <header>
     <h1>Event List</h1>
-  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+  <input type="text" id="myInput" onkeyup="searchBar()" placeholder="Search for names.." title="Type in a name">
   </header>
-  <div id="myBtnContainer">
-    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-    <button class="btn" onclick="filterSelection('sport')"> Sport</button>
-    <button class="btn" onclick="filterSelection('festival')"> Festival</button>
-    <button class="btn" onclick="filterSelection('world')"> World</button>
-    <button class="btn" onclick="filterSelection('local')"> Local</button>
-    <button class="btn" onclick="filterSelection('active')"> Active</button>
-  </div>
-  
   <div class="container">
     <ul class="grid-container" id="myUL">
-      <li id="fifa">
+      <li>
         <a href="#"><div class="filterDiv sport world">Tour de France</div></a>
       </li>
       <li>
@@ -33,7 +24,7 @@
         <a href="#"><div class="filterDiv sport world">FIFA World Cup</div></a>
       </li>
       <li>
-        <a href="#"><div class="filterDiv sport local active">Urban Train Gent</div></a>
+        <a href="#"><div class="filterDiv sport local active">Urban Trail Gent</div></a>
       </li>
       <li>
         <a href="#"><div class="filterDiv sport world">Ronde van Vlaanderen</div></a>
@@ -45,13 +36,11 @@
         <a href="#"><div class="filterDiv festival world">Rock Werchter</div></a>
       </li>
       <li>
-        <a href="#"><div class="filterDiv sport local active">10 Miles Antwerp</div></a></li>
+        <a href="#"><div class="filterDiv sport local active">10 Miles Antwerp</div></a>
+      </li>
       <li>
         <a href="#"><div class="filterDiv festival world">Pukkelpop</div></a>
       </li>
     </ul>
   </div>
-  <ul class="events">
-
-  </ul>
 </html>

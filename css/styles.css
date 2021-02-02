@@ -2,6 +2,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  background-color: whitesmoke;
+}
 ul {
   list-style: none;
 }
@@ -28,7 +31,7 @@ ul {
   background-color: #ddd;
 }
 
-.btn.active {
+.btn.actif {
   background-color: #666;
   color: white;
 }
@@ -42,8 +45,9 @@ ul {
 }
 .grid-container {
   display: inline-grid;
-  grid-template-columns: 22rem 22rem 22rem;
-  grid-template-rows: 12rem 12rem 12rem;
+  grid-template-columns: 20rem 20rem 20rem;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
 }
 li {
   width: 20rem;
@@ -57,4 +61,33 @@ li {
 a:link {
   color: black;
   text-decoration: none;
+}
+a:visited {
+  color: greenyellow;
+}
+@media screen and (max-width: 500px){
+  .grid-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 0;
+    align-items: center;
+  }
+  li {
+    margin-bottom: 2rem;
+    float: center;
+  }
+  #myInput {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1100px){
+  .grid-container {
+    grid-template-columns: 20rem 20rem;
+    grid-template-rows: auto;
+    grid-gap: 1.5rem;
+  }
+  #myInput {
+    width: 100%;
+  }
 }
