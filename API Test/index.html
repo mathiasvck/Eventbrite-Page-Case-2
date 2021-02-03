@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our superheroes</title>
+  </head>
+
+  <body>
+    <div id="myData">
+
+    </div>
+  </body>
+  <script> 
+    var data = fetch('https://www.eventbriteapi.com/v3/categories/', {
+      method: 'GET',
+      withCredentials: true,
+      headers: {
+        'Authorization': 'Bearer J4SWWDP56WQ5RCWEBMPY',
+        'Content-Type' : 'application/json'
+      }
+    })
+    var myData = document.getElementById('myData');
+    myData.innerHTML = data;
+    /* .then(function (response) {
+      return response.json();
+    } )
+    .then(jsonData => console.log('Parsed JSON', jsonData))
+    
+    .then(function (data){
+      appendData(data);
+    })
+    .catch(function (err) {
+    console.log(err);
+  });
+    function appendData(data) {
+      var mainDiv = document.getElementById("myData");
+        for (var i = 0; i < data.Length; i++) {
+          var div = document.createElement("div");
+          div.innerHTML = data[i].name;
+          mainDiv.appendChild(div);
+        }
+    }
+    */
+  </script>
+</html>
