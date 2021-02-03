@@ -1,4 +1,4 @@
-Case 2: Create a listing page with Event Categories from Eventbrite API
+# Case 2: Create a listing page with Event Categories from Eventbrite API
 
 - Layout page can be found on the GitHub Pages
 - API Test File is where I'm working on the retreival and display of the API data
