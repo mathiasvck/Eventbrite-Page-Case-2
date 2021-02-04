@@ -8,16 +8,16 @@ Tasks:
 - BONUS 3: Mise en place de filtres
 - BONUS 4: Mise en place d'une box de "search"
 
-Time estimation for base task: 3 working days
-Time estimation for bonus tasks: 2 working days
+Time estimation for base task: 3 working days.
+Time estimation for bonus tasks: 2 working days.
 
 I've worked with 2 files, 1 with API-implementation and 1 with layout: 
 
-- Layout-page can be found on the GitHub Pages deployment, searchbar is functional but the filter buttons are not (JS not OK yet)
+- Layout-page can be found on the [GitHub Pages deployment](https://mathiasvck.github.io/eventbrite-page/), searchbar is functional but the filter buttons are not (JS not OK yet)
 
 - 'API Eventbrite'-folder is where you can find the page with API implementation, here there is no functionality on both the searchbar and filter buttons.
 
-Time used base task: 3 working days
+Time used base task: 3 working days.
 Time used bonus tasks: 1 working day ( I did not do the 'pagination' bonus + bonus 3 & 4 are visually implemented but not functionally. Only the searchbar works in the layout-page.
 
 
