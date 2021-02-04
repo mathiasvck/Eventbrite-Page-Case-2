@@ -15,7 +15,7 @@ function searchBar() {
       }
   }
 }
-/* Filter Buttons */
+/* Filter Buttons !NOK! */
 filterSelection("all")
 function filterSelection(filterName) {
     var x, i;
