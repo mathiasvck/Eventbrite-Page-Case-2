@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/decathlon.png" type="image/icon type">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <title>Case 2: Eventbrite Listing Page</title>
+</head>
+<body> 
+  <header>
+    <h1>Event List</h1>
+    <input type="text" id="myInput" onkeyup="searchBar()" placeholder="Search for events.." title="Type in an event">
+  </header>
+  <div class="container">
+    <div class="flexbox">
+          <button class="btn" onclick="filterSelection('sport')">Sport</button>
+          <button class="btn" onclick="filterSelection('music')">Music</button>
+          <button class="btn" onclick="filterSelection('world')">World</button>
+          <button class="btn" onclick="filterSelection('local')">Local</button>
+          <button class="btn" onclick="filterSelection('all')">All</button>
+    </div>
+    <div class="grid-container myUL" id="response">
+      
+    </div>
+  </div>
+</html>
