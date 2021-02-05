@@ -11,9 +11,9 @@ Tasks:
 Time estimation for base task: 3 working days. <br>
 Time estimation for bonus tasks: 2 working days.
 
-I've worked with 2 files, 1 with API-implementation and 1 with layout: 
+I've worked with 2 files, 1 with API-implementation and 1 with layout (with fictive events): 
 
-- Layout-page can be found on the [GitHub Pages deployment](https://mathiasvck.github.io/eventbrite-page/), searchbar is functional but the filter buttons are not (JS not OK yet)
+- Layout-page (with fictive events) can be found on the [GitHub Pages deployment](https://mathiasvck.github.io/eventbrite-page/), searchbar is functional but the filter buttons are not (JS not OK yet)
 
 - 'API Eventbrite'-folder is where you can find the page with API implementation, here there is no functionality on both the searchbar and filter buttons.
 
